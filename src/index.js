@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Sample from './Class1'
-// import Timetable from './TimeTable';
+// import Sample from './Class1'
+import Timetable from './TimeTable';
 // import Home from './Home/Home';
 // import Main from './Class3'
 // import Main from './Class4'
@@ -32,8 +32,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Sample/>
-    {/* <Timetable/> */}
+    {/* <Sample/> */}
+    <Timetable/>
     {/* <Home/> */}
     {/* <Mainn/> */}
     {/* <BasicExample/> */}
